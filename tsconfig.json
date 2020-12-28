@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES6", //versão typescript
+        "outDir": "app/js", //resultado da compilação
+        "noEmitOnError": true
+    }    ,
+    "include": [
+        "app/ts/**/*", //indica quais arquivos devem ser considerados para a compilação
+        "app/ts/views"
+    ]
+}
